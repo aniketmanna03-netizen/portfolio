@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aniket Manna — Student Developer | Digital Playground</title>
+  <meta name="description" content="Aniket Manna — Student Developer, Creative Coder, and aspiring software developer at Newton School of Technology. Exploring Python, C++, HTML, CSS, and building digital experiences." />
+  <meta name="keywords" content="Aniket Manna, student developer, portfolio, Python, C++, HTML, CSS, web development, creative coding" />
+  <meta name="author" content="Aniket Manna" />
+  <meta property="og:title" content="Aniket Manna — Student Developer" />
+  <meta property="og:description" content="I turn curiosity into code. Exploring programming, building digital experiences, and learning something new every day." />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════════════ -->
+  <header class="nav-header" role="banner">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="#hero" class="nav-logo" aria-label="AM — Back to top">AM.</a>
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#hero" class="nav-link">HOME</a></li>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#playground" class="nav-link">PLAYGROUND</a></li>
+        <li><a href="#skills" class="nav-link">SKILLS</a></li>
+        <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+        <li><a href="#journey" class="nav-link">JOURNEY</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════════════
+         HERO — FULL SCREEN
+    ═══════════════════════════════════════════════════════ -->
+    <section id="hero" class="hero" aria-label="Hero section">
+
+      <!-- Background radial glow -->
+      <div class="hero-bg-glow" aria-hidden="true"></div>
+
+      <!-- Hero Content -->
+      <div class="hero-content">
+        <div class="hero-badge animate-in delay-0">
+          <span class="badge-dot" aria-hidden="true"></span>
+          OPEN TO LEARNING AND COLLABORATION
+        </div>
+
+        <h1 class="hero-name animate-in delay-1">
+          <span class="hero-name-first">ANIKET</span>
+          <span class="hero-name-last">MANNA</span>
+        </h1>
+
+        <p class="hero-role animate-in delay-2">
+          STUDENT DEVELOPER &nbsp;·&nbsp; CREATIVE CODER
+        </p>
+
+        <blockquote class="hero-quote animate-in delay-3">
+          "I turn curiosity into code."
+        </blockquote>
+
+        <p class="hero-body animate-in delay-4">
+          Exploring programming, building digital experiences,<br class="hide-mobile" />
+          and learning something new every day.
+        </p>
+
+        <p class="hero-tagline animate-in delay-5">
+          Curious Mind. Creative Code. Continuous Growth.
+        </p>
+
+        <div class="hero-actions animate-in delay-6" role="group" aria-label="Primary actions">
+          <a href="#projects" class="btn btn-primary">Explore My Work</a>
+          <a href="#about" class="btn btn-secondary">About Me</a>
+          <a href="https://github.com/aniketmanna03-netizen" target="_blank" rel="noopener noreferrer" class="btn btn-ghost" aria-label="Visit Aniket's GitHub profile">GitHub</a>
+          <a href="mailto:aniketmanna03@gmail.com" class="btn btn-ghost" aria-label="Send Aniket an email">Email Me</a>
+        </div>
+      </div>
+
+      <!-- ─── 3D SCULPTURE ─── -->
+      <div class="sculpture-wrapper animate-in delay-3" aria-hidden="true" role="img" aria-label="Decorative 3D geometric sculpture">
+        <div class="sculpture-bg-radial"></div>
+
+        <div class="sculpture-scene">
+
+          <!-- CORE: cube faces -->
+          <div class="core">
+            <div class="core-face core-front"></div>
+            <div class="core-face core-back"></div>
+            <div class="core-face core-left"></div>
+            <div class="core-face core-right"></div>
+            <div class="core-face core-top"></div>
+            <div class="core-face core-bottom"></div>
+            <!-- Inner core -->
+            <div class="core-inner">
+              <div class="inner-face if-front"></div>
+              <div class="inner-face if-back"></div>
+              <div class="inner-face if-left"></div>
+              <div class="inner-face if-right"></div>
+              <div class="inner-face if-top"></div>
+              <div class="inner-face if-bottom"></div>
+            </div>
+          </div>
+
+          <!-- ORBITAL RINGS — layer 1 -->
+          <div class="orbit-group orbit-g1">
+            <div class="orbit-ring ring-a"></div>
+          </div>
+
+          <!-- ORBITAL RINGS — layer 2 -->
+          <div class="orbit-group orbit-g2">
+            <div class="orbit-ring ring-b"></div>
+          </div>
+
+          <!-- ORBITAL RINGS — layer 3 -->
+          <div class="orbit-group orbit-g3">
+            <div class="orbit-ring ring-c"></div>
+          </div>
+
+          <!-- ORBITAL RINGS — layer 4 -->
+          <div class="orbit-group orbit-g4">
+            <div class="orbit-ring ring-d"></div>
+          </div>
+
+          <!-- FLOATING TETRAHEDRON PANELS -->
+          <div class="float-panel fp-1"></div>
+          <div class="float-panel fp-2"></div>
+          <div class="float-panel fp-3"></div>
+          <div class="float-panel fp-4"></div>
+          <div class="float-panel fp-5"></div>
+          <div class="float-panel fp-6"></div>
+
+          <!-- SATELLITE NODES -->
+          <div class="sat-group sat-g1">
+            <div class="satellite sat-a"></div>
+          </div>
+          <div class="sat-group sat-g2">
+            <div class="satellite sat-b"></div>
+          </div>
+          <div class="sat-group sat-g3">
+            <div class="satellite sat-c"></div>
+          </div>
+
+          <!-- OUTER HALO RING -->
+          <div class="halo-group">
+            <div class="halo-ring"></div>
+          </div>
+
+          <!-- ENERGY LINES -->
+          <div class="energy-line el-1"></div>
+          <div class="energy-line el-2"></div>
+          <div class="energy-line el-3"></div>
+
+        </div><!-- /sculpture-scene -->
+      </div><!-- /sculpture-wrapper -->
+
+      <!-- Scroll indicator -->
+      <div class="scroll-indicator animate-in delay-6" aria-label="Scroll down">
+        <span class="scroll-label">SCROLL</span>
+        <div class="scroll-arrow" aria-hidden="true">↓</div>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         DIGITAL PLAYGROUND
+    ═══════════════════════════════════════════════════════ -->
+    <section id="playground" class="section playground-section" aria-label="Digital Playground">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">02 / PLAYGROUND</span>
+          <h2 class="section-title">WHERE CURIOSITY<br />BECOMES CREATION.</h2>
+          <p class="section-sub">A space for experiments, ideas, and the little details that make the web interesting.</p>
+        </div>
+
+        <div class="playground-grid" role="list">
+
+          <!-- A: CSS Geometry Lab -->
+          <article class="play-card play-card--large" role="listitem" aria-label="CSS Geometry Lab experiment">
+            <div class="play-card-label">A / CSS GEOMETRY LAB</div>
+            <h3 class="play-card-title">Geometry Lab</h3>
+            <p class="play-card-desc">Layered cubes rotating at different speeds. Hover to trigger color transformation.</p>
+            <div class="geo-lab" aria-hidden="true">
+              <div class="geo-grid-bg"></div>
+              <div class="geo-cube gc-outer">
+                <div class="gc-face gc-f1"></div>
+                <div class="gc-face gc-f2"></div>
+                <div class="gc-face gc-f3"></div>
+                <div class="gc-face gc-f4"></div>
+              </div>
+              <div class="geo-cube gc-mid">
+                <div class="gc-face gc-f1"></div>
+                <div class="gc-face gc-f2"></div>
+              </div>
+              <div class="geo-cube gc-inner">
+                <div class="gc-face gc-f1"></div>
+              </div>
+            </div>
+          </article>
+
+          <!-- B: Atmospheric Light Field -->
+          <article class="play-card play-card--tall" role="listitem" aria-label="Atmospheric Light Field experiment">
+            <div class="play-card-label">B / LIGHT FIELD</div>
+            <h3 class="play-card-title">Atmospheric<br />Light Field</h3>
+            <p class="play-card-desc">Layered radial gradients creating atmospheric depth illusion.</p>
+            <div class="light-field" aria-hidden="true">
+              <div class="lf-layer lf-1"></div>
+              <div class="lf-layer lf-2"></div>
+              <div class="lf-layer lf-3"></div>
+              <div class="lf-layer lf-4"></div>
+              <div class="lf-core"></div>
+            </div>
+          </article>
+
+          <!-- C: Perspective Gallery -->
+          <article class="play-card play-card--wide" role="listitem" aria-label="Perspective Gallery experiment">
+            <div class="play-card-label">C / PERSPECTIVE GALLERY</div>
+            <h3 class="play-card-title">Perspective Gallery</h3>
+            <p class="play-card-desc">Hover to elevate panels with 3D perspective transforms.</p>
+            <div class="persp-gallery" aria-hidden="true">
+              <div class="pg-panel pg-p1"></div>
+              <div class="pg-panel pg-p2"></div>
+              <div class="pg-panel pg-p3"></div>
+              <div class="pg-panel pg-p4"></div>
+              <div class="pg-panel pg-p5"></div>
+            </div>
+          </article>
+
+          <!-- D: Kinetic Typography -->
+          <article class="play-card play-card--kinetic" role="listitem" aria-label="Kinetic Typography experiment">
+            <div class="play-card-label">D / KINETIC TYPE</div>
+            <h3 class="play-card-title sr-only">Kinetic Typography</h3>
+            <div class="kinetic-type" aria-hidden="true">
+              <span class="kt-word kt-code">CODE</span>
+              <span class="kt-word kt-art">ART</span>
+              <span class="kt-word kt-build">BUILD</span>
+            </div>
+            <p class="play-card-desc">Gradient text with shimmer animation and animated underlines.</p>
+          </article>
+
+          <!-- E: Abstract CSS Sculpture -->
+          <article class="play-card play-card--sculpture" role="listitem" aria-label="Abstract CSS Sculpture experiment">
+            <div class="play-card-label">E / ABSTRACT SCULPTURE</div>
+            <h3 class="play-card-title">Nested Rings</h3>
+            <p class="play-card-desc">Concentric rings with depth via translateZ and transparency.</p>
+            <div class="abs-sculpture" aria-hidden="true">
+              <div class="as-ring asr-1"></div>
+              <div class="as-ring asr-2"></div>
+              <div class="as-ring asr-3"></div>
+              <div class="as-ring asr-4"></div>
+              <div class="as-ring asr-5"></div>
+              <div class="as-core"></div>
+            </div>
+          </article>
+
+        </div><!-- /playground-grid -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         ABOUT
+    ═══════════════════════════════════════════════════════ -->
+    <section id="about" class="section about-section" aria-label="About Aniket Manna">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Left: Bio -->
+          <div class="about-text">
+            <span class="section-label">03 / ABOUT</span>
+            <h2 class="section-title">The person behind<br />the pixels.</h2>
+
+            <p class="about-bio">
+              Hey, I'm <strong>Aniket Manna</strong>. I'm a student developer passionate about turning ideas into reality through code. Currently exploring Python, C++, HTML, and CSS, I'm strengthening my programming fundamentals while discovering the creative side of web development.
+            </p>
+            <p class="about-bio">
+              From solving logical problems with Python and C++ to designing interactive web experiences with HTML and CSS, I enjoy experimenting, learning how things work, and finding creative ways to make them better.
+            </p>
+            <p class="about-bio">
+              I'm not just here to write code. I'm here to experiment, build, break things, learn from mistakes, and create something worth remembering.
+            </p>
+            <p class="about-bio about-bio--emphasis">
+              Currently learning. Constantly building. Always curious.
+            </p>
+
+            <!-- Education Card -->
+            <div class="edu-card" role="region" aria-label="Education details">
+              <div class="edu-icon" aria-hidden="true">⬡</div>
+              <div class="edu-info">
+                <h3 class="edu-name">Newton School of Technology</h3>
+                <p class="edu-sub">B.Tech · Computer Science</p>
+                <p class="edu-location">
+                  <span aria-label="Location">📍</span> Pune, India
+                </p>
+              </div>
+            </div>
+
+            <!-- Learning Timeline -->
+            <div class="about-timeline" role="region" aria-label="Learning milestones">
+              <h3 class="timeline-mini-title">LEARNING MILESTONES</h3>
+              <div class="tm-item">
+                <div class="tm-dot" aria-hidden="true"></div>
+                <div class="tm-text">
+                  <span class="tm-year">2023</span>
+                  Started programming fundamentals
+                </div>
+              </div>
+              <div class="tm-item">
+                <div class="tm-dot" aria-hidden="true"></div>
+                <div class="tm-text">
+                  <span class="tm-year">2024</span>
+                  HTML, CSS &amp; C++ exploration
+                </div>
+              </div>
+              <div class="tm-item">
+                <div class="tm-dot" aria-hidden="true"></div>
+                <div class="tm-text">
+                  <span class="tm-year">2025</span>
+                  Creative CSS &amp; KisanLens AI
+                </div>
+              </div>
+              <div class="tm-item tm-item--future">
+                <div class="tm-dot" aria-hidden="true"></div>
+                <div class="tm-text">
+                  <span class="tm-year">FUTURE</span>
+                  JavaScript, Backend, Open Source
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Decorative Illustration -->
+          <div class="about-visual" aria-hidden="true" role="img" aria-label="Decorative geometric portrait">
+            <div class="av-frame">
+              <div class="av-portrait">
+                <div class="av-geo av-geo-1"></div>
+                <div class="av-geo av-geo-2"></div>
+                <div class="av-geo av-geo-3"></div>
+                <div class="av-geo av-geo-4"></div>
+                <div class="av-center">
+                  <div class="av-initials">AM</div>
+                </div>
+                <div class="av-ring av-r1"></div>
+                <div class="av-ring av-r2"></div>
+                <div class="av-ring av-r3"></div>
+              </div>
+              <div class="av-label-grid">
+                <span class="av-tag">PYTHON</span>
+                <span class="av-tag">C++</span>
+                <span class="av-tag">HTML</span>
+                <span class="av-tag">CSS</span>
+                <span class="av-tag">CREATIVE</span>
+                <span class="av-tag">LEARNER</span>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /about-grid -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SKILLS
+    ═══════════════════════════════════════════════════════ -->
+    <section id="skills" class="section skills-section" aria-label="Skills and tech stack">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">04 / SKILLS</span>
+          <h2 class="section-title">MY TECH STACK</h2>
+        </div>
+
+        <div class="skills-grid" role="list">
+
+          <article class="skill-card" role="listitem" aria-label="Python skill">
+            <div class="skill-icon si-python" aria-hidden="true">
+              <div class="si-shape si-s1"></div>
+              <div class="si-shape si-s2"></div>
+            </div>
+            <h3 class="skill-name">PYTHON</h3>
+            <p class="skill-desc">Programming fundamentals, logic building, and problem solving.</p>
+            <div class="skill-tag">Primary Language</div>
+          </article>
+
+          <article class="skill-card" role="listitem" aria-label="C++ skill">
+            <div class="skill-icon si-cpp" aria-hidden="true">
+              <div class="si-shape si-s1"></div>
+              <div class="si-shape si-s2"></div>
+            </div>
+            <h3 class="skill-name">C++</h3>
+            <p class="skill-desc">Core programming concepts and competitive programming fundamentals.</p>
+            <div class="skill-tag">Competitive</div>
+          </article>
+
+          <article class="skill-card" role="listitem" aria-label="HTML skill">
+            <div class="skill-icon si-html" aria-hidden="true">
+              <div class="si-shape si-s1"></div>
+              <div class="si-shape si-s2"></div>
+            </div>
+            <h3 class="skill-name">HTML</h3>
+            <p class="skill-desc">Semantic and accessible web structure.</p>
+            <div class="skill-tag">Web</div>
+          </article>
+
+          <article class="skill-card" role="listitem" aria-label="CSS skill">
+            <div class="skill-icon si-css" aria-hidden="true">
+              <div class="si-shape si-s1"></div>
+              <div class="si-shape si-s2"></div>
+            </div>
+            <h3 class="skill-name">CSS</h3>
+            <p class="skill-desc">Responsive layouts, styling, visual design, and animations.</p>
+            <div class="skill-tag">Design</div>
+          </article>
+
+          <article class="skill-card" role="listitem" aria-label="Git and GitHub skill">
+            <div class="skill-icon si-git" aria-hidden="true">
+              <div class="si-shape si-s1"></div>
+              <div class="si-shape si-s2"></div>
+            </div>
+            <h3 class="skill-name">GIT &amp; GITHUB</h3>
+            <p class="skill-desc">Version control and repository management.</p>
+            <div class="skill-tag">Tools</div>
+          </article>
+
+        </div>
+
+        <!-- Currently Exploring -->
+        <div class="exploring-section" role="region" aria-label="Currently exploring">
+          <h3 class="exploring-title">CURRENTLY EXPLORING</h3>
+          <div class="exploring-grid" role="list">
+            <div class="exp-item" role="listitem">
+              <span class="exp-dot" aria-hidden="true"></span>
+              Data Structures &amp; Algorithms
+            </div>
+            <div class="exp-item" role="listitem">
+              <span class="exp-dot" aria-hidden="true"></span>
+              JavaScript
+            </div>
+            <div class="exp-item" role="listitem">
+              <span class="exp-dot" aria-hidden="true"></span>
+              Advanced CSS
+            </div>
+            <div class="exp-item" role="listitem">
+              <span class="exp-dot" aria-hidden="true"></span>
+              Backend Development
+            </div>
+            <div class="exp-item" role="listitem">
+              <span class="exp-dot" aria-hidden="true"></span>
+              Open Source
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         PROJECTS
+    ═══════════════════════════════════════════════════════ -->
+    <section id="projects" class="section projects-section" aria-label="Projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">05 / PROJECTS</span>
+          <h2 class="section-title">THINGS I'VE BUILT.<br />IDEAS I'VE EXPLORED.</h2>
+        </div>
+
+        <div class="projects-grid" role="list">
+
+          <!-- Project 01: KisanLens AI — Featured -->
+          <article class="project-card project-card--featured" role="listitem" aria-label="KisanLens AI project">
+            <div class="proj-num" aria-hidden="true">01</div>
+            <div class="proj-badge">FEATURED · IN DEVELOPMENT</div>
+            <h3 class="proj-title">KisanLens AI</h3>
+            <p class="proj-desc">
+              A pesticide-label interpretation tool built to help Indian farmers understand pesticide usage through image recognition. Designed to bridge the language barrier in agricultural technology.
+            </p>
+            <div class="proj-tech-stack" role="list" aria-label="Technologies used">
+              <span class="tech-pill" role="listitem">Python</span>
+              <span class="tech-pill" role="listitem">Image Recognition</span>
+              <span class="tech-pill" role="listitem">AI/ML</span>
+            </div>
+            <div class="proj-status">
+              <span class="status-dot" aria-hidden="true"></span>
+              Active Development
+            </div>
+            <div class="proj-actions">
+              <a href="#" class="proj-link" aria-label="View KisanLens AI on GitHub (placeholder)">
+                View on GitHub →
+              </a>
+            </div>
+            <!-- Decorative artwork -->
+            <div class="proj-art proj-art--kisanlens" aria-hidden="true">
+              <div class="pa-circle pa-c1"></div>
+              <div class="pa-circle pa-c2"></div>
+              <div class="pa-line pa-l1"></div>
+              <div class="pa-line pa-l2"></div>
+              <div class="pa-node pa-n1"></div>
+              <div class="pa-node pa-n2"></div>
+              <div class="pa-node pa-n3"></div>
+            </div>
+          </article>
+
+          <!-- Project 02: Placeholder -->
+          <article class="project-card" role="listitem" aria-label="Placeholder project 02">
+            <div class="proj-num" aria-hidden="true">02</div>
+            <div class="proj-badge proj-badge--explore">EXPLORING</div>
+            <h3 class="proj-title">[Placeholder Project]</h3>
+            <p class="proj-desc">
+              An interactive web project exploring creative layout design and CSS animations. Built as a learning exercise in responsive design patterns.
+            </p>
+            <div class="proj-tech-stack" role="list" aria-label="Technologies used">
+              <span class="tech-pill" role="listitem">HTML</span>
+              <span class="tech-pill" role="listitem">CSS</span>
+            </div>
+            <div class="proj-status">
+              <span class="status-dot status-dot--dim" aria-hidden="true"></span>
+              Exploring
+            </div>
+            <div class="proj-actions">
+              <span class="proj-link-placeholder">Link coming soon</span>
+            </div>
+            <div class="proj-art proj-art--two" aria-hidden="true">
+              <div class="pa-grid"></div>
+              <div class="pa-rect pr-1"></div>
+              <div class="pa-rect pr-2"></div>
+            </div>
+          </article>
+
+          <!-- Project 03: Placeholder -->
+          <article class="project-card" role="listitem" aria-label="Placeholder project 03">
+            <div class="proj-num" aria-hidden="true">03</div>
+            <div class="proj-badge proj-badge--learn">LEARNING</div>
+            <h3 class="proj-title">[Creative CSS Experiment]</h3>
+            <p class="proj-desc">
+              A pure CSS creative experiment pushing the boundaries of what's possible without JavaScript. Exploring animations, 3D transforms, and generative visuals.
+            </p>
+            <div class="proj-tech-stack" role="list" aria-label="Technologies used">
+              <span class="tech-pill" role="listitem">CSS</span>
+              <span class="tech-pill" role="listitem">HTML</span>
+            </div>
+            <div class="proj-status">
+              <span class="status-dot status-dot--dim" aria-hidden="true"></span>
+              Learning Phase
+            </div>
+            <div class="proj-actions">
+              <span class="proj-link-placeholder">Link coming soon</span>
+            </div>
+            <div class="proj-art proj-art--three" aria-hidden="true">
+              <div class="pa-spiral ps-1"></div>
+              <div class="pa-spiral ps-2"></div>
+              <div class="pa-spiral ps-3"></div>
+            </div>
+          </article>
+
+        </div><!-- /projects-grid -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CODING JOURNEY TIMELINE
+    ═══════════════════════════════════════════════════════ -->
+    <section id="journey" class="section journey-section" aria-label="Coding journey timeline">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">06 / JOURNEY</span>
+          <h2 class="section-title">EVERY LINE OF CODE<br />IS PROGRESS.</h2>
+        </div>
+
+        <div class="timeline" role="list">
+
+          <div class="tl-item" role="listitem">
+            <div class="tl-marker" aria-hidden="true">
+              <div class="tl-dot"></div>
+              <div class="tl-pulse"></div>
+            </div>
+            <div class="tl-content">
+              <span class="tl-year">2023</span>
+              <h3 class="tl-title">Programming Fundamentals</h3>
+              <p class="tl-desc">Started the journey — learning the basics of logic, algorithms, and computational thinking.</p>
+            </div>
+          </div>
+
+          <div class="tl-item" role="listitem">
+            <div class="tl-marker" aria-hidden="true">
+              <div class="tl-dot"></div>
+              <div class="tl-pulse"></div>
+            </div>
+            <div class="tl-content">
+              <span class="tl-year">2023</span>
+              <h3 class="tl-title">Python Deep Dive</h3>
+              <p class="tl-desc">Began Python — logic, data types, functions, and problem solving. First real language, first real programs.</p>
+            </div>
+          </div>
+
+          <div class="tl-item" role="listitem">
+            <div class="tl-marker" aria-hidden="true">
+              <div class="tl-dot"></div>
+              <div class="tl-pulse"></div>
+            </div>
+            <div class="tl-content">
+              <span class="tl-year">2024</span>
+              <h3 class="tl-title">C++ &amp; Competitive Programming</h3>
+              <p class="tl-desc">Started C++ — competitive programming basics, understanding memory, speed, and efficiency.</p>
+            </div>
+          </div>
+
+          <div class="tl-item" role="listitem">
+            <div class="tl-marker" aria-hidden="true">
+              <div class="tl-dot"></div>
+              <div class="tl-pulse"></div>
+            </div>
+            <div class="tl-content">
+              <span class="tl-year">2024</span>
+              <h3 class="tl-title">First HTML/CSS Websites</h3>
+              <p class="tl-desc">Built first web projects — discovering the visual, creative dimension of programming.</p>
+            </div>
+          </div>
+
+          <div class="tl-item tl-item--active" role="listitem">
+            <div class="tl-marker" aria-hidden="true">
+              <div class="tl-dot tl-dot--active"></div>
+              <div class="tl-pulse tl-pulse--active"></div>
+            </div>
+            <div class="tl-content">
+              <span class="tl-year tl-year--active">2025</span>
+              <h3 class="tl-title">Creative CSS &amp; Web Design</h3>
+              <p class="tl-desc">Deep dive into creative CSS, animations, 3D transforms, and editorial web design.</p>
+            </div>
+          </div>
+
+          <div class="tl-item tl-item--active" role="listitem">
+            <div class="tl-marker" aria-hidden="true">
+              <div class="tl-dot tl-dot--active"></div>
+              <div class="tl-pulse tl-pulse--active"></div>
+            </div>
+            <div class="tl-content">
+              <span class="tl-year tl-year--active">2025</span>
+              <h3 class="tl-title">KisanLens AI — In Progress</h3>
+              <p class="tl-desc">Working on KisanLens AI — a real project, real impact, real learning.</p>
+            </div>
+          </div>
+
+          <div class="tl-item tl-item--future" role="listitem">
+            <div class="tl-marker" aria-hidden="true">
+              <div class="tl-dot tl-dot--future"></div>
+            </div>
+            <div class="tl-content">
+              <span class="tl-year tl-year--future">FUTURE</span>
+              <h3 class="tl-title">What's Next</h3>
+              <p class="tl-desc">JavaScript, Backend development, Open Source contributions, Internships, and beyond.</p>
+            </div>
+          </div>
+
+        </div><!-- /timeline -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         GITHUB SECTION
+    ═══════════════════════════════════════════════════════ -->
+    <section id="github" class="section github-section" aria-label="GitHub profile">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-label">07 / GITHUB</span>
+          <h2 class="section-title">FIND ME ON GITHUB</h2>
+          <p class="section-sub">Repository details are manually maintained — no live API.</p>
+        </div>
+
+        <div class="github-cta">
+          <div class="gh-card" role="region" aria-label="GitHub profile card">
+            <div class="gh-card-header">
+              <div class="gh-avatar" aria-hidden="true">AM</div>
+              <div class="gh-info">
+                <h3 class="gh-username">aniketmanna03-netizen</h3>
+                <p class="gh-tagline">Student Developer · Creative Coder</p>
+              </div>
+            </div>
+            <p class="gh-note">⚠ Repository details are manually maintained — no live GitHub API is used.</p>
+            <a href="https://github.com/aniketmanna03-netizen" target="_blank" rel="noopener noreferrer" class="btn btn-primary gh-btn" aria-label="Visit Aniket Manna's GitHub profile">
+              Visit GitHub Profile →
+            </a>
+          </div>
+        </div>
+
+        <!-- Repo placeholder cards -->
+        <div class="repos-grid" role="list" aria-label="Repository placeholders">
+
+          <article class="repo-card" role="listitem" aria-label="KisanLens AI repository">
+            <div class="repo-lang-dot" style="background: #C5FF4A;" aria-hidden="true"></div>
+            <h3 class="repo-name">kisanlens-ai</h3>
+            <p class="repo-desc">Pesticide-label interpretation tool for Indian farmers using image recognition.</p>
+            <div class="repo-meta">
+              <span class="repo-lang">Python</span>
+              <span class="repo-status">In Development</span>
+            </div>
+            <a href="#" class="repo-link" aria-label="View kisanlens-ai repository on GitHub (placeholder)">View Repo →</a>
+          </article>
+
+          <article class="repo-card" role="listitem" aria-label="Placeholder repository 2">
+            <div class="repo-lang-dot" style="background: #4AFFED;" aria-hidden="true"></div>
+            <h3 class="repo-name">[placeholder-project]</h3>
+            <p class="repo-desc">An HTML/CSS web project — add your description here.</p>
+            <div class="repo-meta">
+              <span class="repo-lang">HTML · CSS</span>
+              <span class="repo-status">Exploring</span>
+            </div>
+            <span class="repo-link repo-link--dim">Coming soon</span>
+          </article>
+
+          <article class="repo-card" role="listitem" aria-label="Placeholder repository 3">
+            <div class="repo-lang-dot" style="background: #B57BFF;" aria-hidden="true"></div>
+            <h3 class="repo-name">[creative-experiment]</h3>
+            <p class="repo-desc">CSS creative experiment — pure CSS visual art and animation.</p>
+            <div class="repo-meta">
+              <span class="repo-lang">CSS</span>
+              <span class="repo-status">Learning</span>
+            </div>
+            <span class="repo-link repo-link--dim">Coming soon</span>
+          </article>
+
+        </div>
+
+        <!-- Achievements placeholder -->
+        <div class="achievements-grid" role="region" aria-label="Achievements placeholders">
+          <h3 class="ach-title">ACHIEVEMENTS &amp; MILESTONES</h3>
+          <div class="ach-items">
+            <div class="ach-item">
+              <div class="ach-icon" aria-hidden="true">⚡</div>
+              <div class="ach-text">
+                <strong>Hackathons</strong>
+                <span>[ Add hackathon details here ]</span>
+              </div>
+            </div>
+            <div class="ach-item">
+              <div class="ach-icon" aria-hidden="true">🎓</div>
+              <div class="ach-text">
+                <strong>Workshops</strong>
+                <span>[ Add workshop details here ]</span>
+              </div>
+            </div>
+            <div class="ach-item">
+              <div class="ach-icon" aria-hidden="true">🤝</div>
+              <div class="ach-text">
+                <strong>Collaborations</strong>
+                <span>[ Add collaboration details here ]</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         TERMINAL VISUAL
+    ═══════════════════════════════════════════════════════ -->
+    <section class="terminal-section" aria-label="Decorative terminal preview">
+      <div class="container">
+        <div class="terminal-window" role="region" aria-label="Visual terminal preview — command execution is not enabled.">
+          <!-- macOS titlebar -->
+          <div class="terminal-titlebar" aria-hidden="true">
+            <div class="tb-dot tb-red"></div>
+            <div class="tb-dot tb-yellow"></div>
+            <div class="tb-dot tb-green"></div>
+            <span class="tb-title">aniket@portfolio ~ bash</span>
+          </div>
+          <!-- Terminal body -->
+          <div class="terminal-body" aria-label="Terminal output (visual only)">
+            <div class="t-line">
+              <span class="t-prompt" aria-hidden="true">❯</span>
+              <span class="t-cmd">help</span>
+            </div>
+            <div class="t-output">Available commands: about · skills · projects · github · contact</div>
+            <div class="t-line">
+              <span class="t-prompt" aria-hidden="true">❯</span>
+              <span class="t-cmd">about</span>
+            </div>
+            <div class="t-output">Aniket Manna — Student Developer at Newton School of Technology, Pune.</div>
+            <div class="t-line">
+              <span class="t-prompt" aria-hidden="true">❯</span>
+              <span class="t-cmd">skills</span>
+            </div>
+            <div class="t-output">Python · C++ · HTML · CSS · Git &amp; GitHub</div>
+            <div class="t-line">
+              <span class="t-prompt" aria-hidden="true">❯</span>
+              <span class="t-cmd">projects</span>
+            </div>
+            <div class="t-output">01 KisanLens AI [In Development] · 02 Placeholder · 03 CSS Experiment</div>
+            <div class="t-line">
+              <span class="t-prompt" aria-hidden="true">❯</span>
+              <span class="t-cmd">github</span>
+            </div>
+            <div class="t-output">https://github.com/aniketmanna03-netizen</div>
+            <div class="t-line">
+              <span class="t-prompt" aria-hidden="true">❯</span>
+              <span class="t-cmd">contact</span>
+            </div>
+            <div class="t-output">aniketmanna03@gmail.com · Pune, India</div>
+            <div class="t-line t-line--current">
+              <span class="t-prompt" aria-hidden="true">❯</span>
+              <span class="t-cursor" aria-hidden="true">█</span>
+            </div>
+          </div>
+          <div class="terminal-disclaimer" aria-live="polite">
+            Visual terminal preview — command execution is not enabled.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         CONTACT
+    ═══════════════════════════════════════════════════════ -->
+    <section id="contact" class="section contact-section" aria-label="Contact Aniket Manna">
+      <div class="container">
+        <div class="contact-grid">
+
+          <div class="contact-text">
+            <span class="section-label">08 / CONTACT</span>
+            <h2 class="section-title">HAVE AN IDEA?<br />LET'S BUILD SOMETHING.</h2>
+            <p class="contact-sub">I'm always interested in learning, collaborating, and exploring interesting ideas.</p>
+
+            <div class="contact-details" role="list">
+              <div class="cd-item" role="listitem">
+                <span class="cd-icon" aria-hidden="true">◈</span>
+                <div class="cd-info">
+                  <span class="cd-label">Name</span>
+                  <span class="cd-value">Aniket Manna</span>
+                </div>
+              </div>
+              <div class="cd-item" role="listitem">
+                <span class="cd-icon" aria-hidden="true">◉</span>
+                <div class="cd-info">
+                  <span class="cd-label">Location</span>
+                  <span class="cd-value">Pune, India</span>
+                </div>
+              </div>
+              <div class="cd-item" role="listitem">
+                <span class="cd-icon" aria-hidden="true">◎</span>
+                <div class="cd-info">
+                  <span class="cd-label">Email</span>
+                  <a href="mailto:aniketmanna03@gmail.com" class="cd-link" aria-label="Send email to Aniket Manna">aniketmanna03@gmail.com</a>
+                </div>
+              </div>
+              <div class="cd-item" role="listitem">
+                <span class="cd-icon" aria-hidden="true">◇</span>
+                <div class="cd-info">
+                  <span class="cd-label">GitHub</span>
+                  <a href="https://github.com/aniketmanna03-netizen" target="_blank" rel="noopener noreferrer" class="cd-link" aria-label="Aniket Manna's GitHub profile">aniketmanna03-netizen</a>
+                </div>
+              </div>
+              <div class="cd-item" role="listitem">
+                <span class="cd-icon" aria-hidden="true">◆</span>
+                <div class="cd-info">
+                  <span class="cd-label">LinkedIn</span>
+                  <span class="cd-value cd-placeholder">[ Add your LinkedIn URL ]</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-actions" role="region" aria-label="Contact actions">
+            <div class="contact-card">
+              <div class="cc-deco" aria-hidden="true">
+                <div class="cc-ring cc-r1"></div>
+                <div class="cc-ring cc-r2"></div>
+                <div class="cc-ring cc-r3"></div>
+                <div class="cc-center">✉</div>
+              </div>
+              <h3 class="cc-title">Ready to connect?</h3>
+              <p class="cc-body">Whether it's a project idea, collaboration opportunity, or just a hello — I'm open to it.</p>
+              <div class="cc-buttons">
+                <a href="mailto:aniketmanna03@gmail.com" class="btn btn-primary" aria-label="Send Aniket an email">
+                  Email Me
+                </a>
+                <a href="https://github.com/aniketmanna03-netizen" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" aria-label="Visit Aniket's GitHub">
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <a href="#hero" class="footer-logo" aria-label="AM — Back to top">AM.</a>
+          <p class="footer-copy">© 2025 Aniket Manna — Built with HTML &amp; CSS</p>
+        </div>
+        <div class="footer-right">
+          <a href="#hero" class="footer-top-link" aria-label="Back to top of page">
+            Back to Top ↑
+          </a>
+        </div>
+      </div>
+      <div class="footer-divider" aria-hidden="true"></div>
+      <p class="footer-note">No JavaScript. No frameworks. Pure HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
