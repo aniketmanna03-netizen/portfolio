@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="3D GitHub Octocat Logo">
+  <defs>
+    <!-- Deep Cosmic Dark Sphere with subtle purple sheen -->
+    <radialGradient id="ghSphere3d" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#2D1F5E"/>
+      <stop offset="35%" stop-color="#18112C"/>
+      <stop offset="85%" stop-color="#0E0919"/>
+      <stop offset="100%" stop-color="#05030A"/>
+    </radialGradient>
+    <!-- Cyan & Purple Neon Halo Ring -->
+    <linearGradient id="ghNeonRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="50%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#C084FC"/>
+    </linearGradient>
+    <!-- Pure 3D White Bevel for Octocat Silhouette -->
+    <linearGradient id="octoMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="60%" stop-color="#F1F5F9"/>
+      <stop offset="100%" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <filter id="gh3dShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#A78BFA" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#gh3dShadow)">
+    <!-- 3D Dark Disc Base -->
+    <circle cx="60" cy="60" r="48" fill="url(#ghSphere3d)"/>
+    <!-- Outer Neon Glowing Rim -->
+    <circle cx="60" cy="60" r="48" fill="none" stroke="url(#ghNeonRing)" stroke-width="2.5" opacity="0.85"/>
+    <circle cx="60" cy="60" r="45" fill="none" stroke="#FFFFFF" stroke-width="0.8" opacity="0.2"/>
+
+    <!-- Octocat Silhouette with 3D Emboss -->
+    <path d="M 60 24 C 40.1 24 24 40.1 24 60 C 24 75.9 34.3 89.4 48.6 94.2 C 50.4 94.5 51.1 93.4 51.1 92.4 C 51.1 91.6 51.1 89 51.1 85.5 C 41.1 87.7 39 80.7 39 80.7 C 37.4 76.6 35.1 75.5 35.1 75.5 C 31.8 73.2 35.4 73.3 35.4 73.3 C 39.1 73.6 41 77.2 41 77.2 C 44.2 82.8 49.6 81.2 51.7 80.2 C 52 77.9 52.9 76.3 53.9 75.4 C 45.9 74.5 37.5 71.4 37.5 57.6 C 37.5 53.7 38.9 50.5 41.2 48 C 40.8 47.1 39.6 43.5 41.6 38.7 C 41.6 38.7 44.6 37.7 51.5 42.4 C 54.4 41.6 57.4 41.2 60.4 41.2 C 63.4 41.2 66.4 41.6 69.3 42.4 C 76.2 37.7 79.2 38.7 79.2 38.7 C 81.2 43.5 80 47.1 79.6 48 C 81.9 50.5 83.3 53.7 83.3 57.6 C 83.3 71.5 74.8 74.5 66.8 75.4 C 68.1 76.5 69.3 78.8 69.3 82.3 C 69.3 87.4 69.2 91.4 69.2 92.4 C 69.2 93.4 69.9 94.6 71.7 94.2 C 86 89.4 96.3 75.9 96.3 60 C 96.3 40.1 80.1 24 60 24 Z"
+          fill="url(#octoMetal)"/>
+
+    <!-- Specular Light Reflection -->
+    <path d="M 28 42 C 38 28, 62 24, 82 28" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3"/>
+    <ellipse cx="44" cy="36" rx="8" ry="3" fill="#FFFFFF" opacity="0.25" transform="rotate(-20 44 36)"/>
+  </g>
+</svg>

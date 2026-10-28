@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="3D C++ Metallic Logo">
+  <defs>
+    <!-- Metallic Hexagon Outer Gradient -->
+    <linearGradient id="cppHexBase" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0086D6"/>
+      <stop offset="35%" stop-color="#00599C"/>
+      <stop offset="70%" stop-color="#003566"/>
+      <stop offset="100%" stop-color="#001E3D"/>
+    </linearGradient>
+    <!-- Metallic Inner Bevel -->
+    <linearGradient id="cppMetalBevel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#80D0FF" stop-opacity="0.8"/>
+      <stop offset="25%" stop-color="#FFFFFF" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#00599C" stop-opacity="0.5"/>
+      <stop offset="80%" stop-color="#002244" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#66B3FF" stop-opacity="0.6"/>
+    </linearGradient>
+    <!-- Chrome / Steel Gradient for Text -->
+    <linearGradient id="cppChrome" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="48%" stop-color="#E2EEF8"/>
+      <stop offset="52%" stop-color="#8FAEC7"/>
+      <stop offset="100%" stop-color="#DCE9F5"/>
+    </linearGradient>
+    <filter id="cpp3dShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#007ACC" flood-opacity="0.5"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#cpp3dShadow)">
+    <!-- 3D Hexagon Plate Base (Isometric Depth) -->
+    <polygon points="60,6 106,32 106,88 60,114 14,88 14,32" fill="url(#cppHexBase)"/>
+    <!-- Outer Rim Metallic Highlight -->
+    <polygon points="60,6 106,32 106,88 60,114 14,88 14,32" fill="none" stroke="url(#cppMetalBevel)" stroke-width="4"/>
+    
+    <!-- Inner Darker Recessed Hexagon -->
+    <polygon points="60,14 98,36 98,84 60,106 22,84 22,36" fill="#061D33" opacity="0.85"/>
+    <polygon points="60,14 98,36 98,84 60,106 22,84 22,36" fill="none" stroke="#007ACC" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Central 3D 'C' -->
+    <path d="M 52 38 C 36 38 27 47 27 60 C 27 73 36 82 52 82 C 60 82 66 79 70 74 L 62 67 C 59 70 56 72 52 72 C 43 72 38 67 38 60 C 38 53 43 48 52 48 C 56 48 59 50 62 53 L 70 46 C 66 41 60 38 52 38 Z"
+          fill="url(#cppChrome)"/>
+
+    <!-- First 3D Plus Sign -->
+    <g fill="url(#cppChrome)">
+      <rect x="73" y="56" width="16" height="6.5" rx="1.5"/>
+      <rect x="78" y="51" width="6.5" height="16.5" rx="1.5"/>
+    </g>
+
+    <!-- Second 3D Plus Sign (Stacked) -->
+    <g fill="url(#cppChrome)">
+      <rect x="91" y="56" width="16" height="6.5" rx="1.5"/>
+      <rect x="96" y="51" width="6.5" height="16.5" rx="1.5"/>
+    </g>
+
+    <!-- Top Gloss Reflex -->
+    <ellipse cx="60" cy="24" rx="30" ry="8" fill="#FFFFFF" opacity="0.18"/>
+  </g>
+</svg>

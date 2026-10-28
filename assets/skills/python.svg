@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="3D Python Logo">
+  <defs>
+    <!-- Blue Snake Gradient with 3D spherical highlights -->
+    <radialGradient id="pyBlue3d" cx="30%" cy="25%" r="75%">
+      <stop offset="0%" stop-color="#5EA4E8"/>
+      <stop offset="30%" stop-color="#3774A8"/>
+      <stop offset="85%" stop-color="#1E4569"/>
+      <stop offset="100%" stop-color="#0E243A"/>
+    </radialGradient>
+    <!-- Yellow Snake Gradient with 3D lighting -->
+    <radialGradient id="pyYellow3d" cx="70%" cy="75%" r="75%">
+      <stop offset="0%" stop-color="#FFF066"/>
+      <stop offset="35%" stop-color="#FFD43B"/>
+      <stop offset="80%" stop-color="#D49E10"/>
+      <stop offset="100%" stop-color="#8A6305"/>
+    </radialGradient>
+    <!-- Specular Highlight Overlay -->
+    <linearGradient id="pyGloss" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.3"/>
+    </linearGradient>
+    <filter id="py3dFilter" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#3774A8" flood-opacity="0.4"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#py3dFilter)">
+    <!-- Top Blue Snake -->
+    <path d="M 59.5 12 C 45.4 12 37.4 17.5 37.4 29 L 37.4 40 L 60.2 40 L 60.2 43.3 L 25.3 43.3 C 13.5 43.3 3.6 51.6 3.6 65.9 C 3.6 80.3 12 88.6 23.8 88.6 L 33.7 88.6 L 33.7 77.8 C 33.7 65.9 43.5 56.1 55.4 56.1 L 79.2 56.1 C 89.7 56.1 98.2 47.6 98.2 37.1 L 98.2 28.5 C 98.2 17.1 89.4 12 75.3 12 Z" 
+          fill="url(#pyBlue3d)"/>
+    <path d="M 59.5 12 C 45.4 12 37.4 17.5 37.4 29 L 37.4 40 L 60.2 40 L 60.2 43.3 L 25.3 43.3 C 13.5 43.3 3.6 51.6 3.6 65.9 C 3.6 80.3 12 88.6 23.8 88.6 L 33.7 88.6 L 33.7 77.8 C 33.7 65.9 43.5 56.1 55.4 56.1 L 79.2 56.1 C 89.7 56.1 98.2 47.6 98.2 37.1 L 98.2 28.5 C 98.2 17.1 89.4 12 75.3 12 Z" 
+          fill="url(#pyGloss)"/>
+    <!-- Blue Snake Eye -->
+    <circle cx="47.6" cy="26" r="4.2" fill="#FFFFFF"/>
+    <circle cx="47.6" cy="26" r="2.8" fill="#143048"/>
+    <circle cx="46.5" cy="24.8" r="1.2" fill="#FFFFFF"/>
+
+    <!-- Bottom Yellow Snake -->
+    <path d="M 60.5 108 C 74.6 108 82.6 102.5 82.6 91 L 82.6 80 L 59.8 80 L 59.8 76.7 L 94.7 76.7 C 106.5 76.7 116.4 68.4 116.4 54.1 C 116.4 39.7 108 31.4 96.2 31.4 L 86.3 31.4 L 86.3 42.2 C 86.3 54.1 76.5 63.9 64.6 63.9 L 40.8 63.9 C 30.3 63.9 21.8 72.4 21.8 82.9 L 21.8 91.5 C 21.8 102.9 30.6 108 44.7 108 Z" 
+          fill="url(#pyYellow3d)"/>
+    <path d="M 60.5 108 C 74.6 108 82.6 102.5 82.6 91 L 82.6 80 L 59.8 80 L 59.8 76.7 L 94.7 76.7 C 106.5 76.7 116.4 68.4 116.4 54.1 C 116.4 39.7 108 31.4 96.2 31.4 L 86.3 31.4 L 86.3 42.2 C 86.3 54.1 76.5 63.9 64.6 63.9 L 40.8 63.9 C 30.3 63.9 21.8 72.4 21.8 82.9 L 21.8 91.5 C 21.8 102.9 30.6 108 44.7 108 Z" 
+          fill="url(#pyGloss)"/>
+    <!-- Yellow Snake Eye -->
+    <circle cx="72.4" cy="94" r="4.2" fill="#FFFFFF"/>
+    <circle cx="72.4" cy="94" r="2.8" fill="#5E4302"/>
+    <circle cx="71.3" cy="92.8" r="1.2" fill="#FFFFFF"/>
+  </g>
+</svg>

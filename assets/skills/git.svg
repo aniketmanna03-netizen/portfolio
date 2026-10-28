@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="3D Git Branching Logo">
+  <defs>
+    <radialGradient id="gitSphere3d" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FF8A65"/>
+      <stop offset="40%" stop-color="#F05032"/>
+      <stop offset="85%" stop-color="#B82E14"/>
+      <stop offset="100%" stop-color="#731908"/>
+    </radialGradient>
+    <linearGradient id="gitCubeFront" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7557"/>
+      <stop offset="50%" stop-color="#F05032"/>
+      <stop offset="100%" stop-color="#C6381E"/>
+    </linearGradient>
+    <linearGradient id="gitNodeBall" x1="20%" y1="20%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#E2E8F0"/>
+      <stop offset="100%" stop-color="#94A3B8"/>
+    </linearGradient>
+    <filter id="git3dShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#F05032" flood-opacity="0.45"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#git3dShadow)">
+    <!-- Rotated 3D Rounded Diamond Base -->
+    <rect x="22" y="22" width="76" height="76" rx="16" transform="rotate(45 60 60)" fill="url(#gitCubeFront)"/>
+    
+    <!-- Top Chamfer Highlight for 3D bevel effect -->
+    <rect x="23" y="23" width="74" height="74" rx="15" transform="rotate(45 60 60)" fill="none" stroke="#FFFFFF" stroke-width="2.5" opacity="0.35"/>
+    <rect x="28" y="28" width="64" height="64" rx="12" transform="rotate(45 60 60)" fill="none" stroke="#000000" stroke-width="1.5" opacity="0.2"/>
+
+    <!-- Git Pipeline Connecting Pipes (with 3D tubular thickness) -->
+    <!-- Base track shadow -->
+    <path d="M 40 60 L 72 60 M 40 60 L 66 34" stroke="#7A1D0B" stroke-width="7" stroke-linecap="round"/>
+    <!-- Foreground pipe -->
+    <path d="M 40 60 L 72 60" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 40 60 C 50 60, 56 44, 66 34" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M 66 34 L 80 48" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- 3D Node Spheres with drop shadow -->
+    <!-- Node 1 (Root) -->
+    <circle cx="40" cy="60" r="8" fill="url(#gitNodeBall)"/>
+    <circle cx="38" cy="58" r="2.5" fill="#FFF" opacity="0.8"/>
+    
+    <!-- Node 2 (Branch Split) -->
+    <circle cx="66" cy="34" r="8" fill="url(#gitNodeBall)"/>
+    <circle cx="64" cy="32" r="2.5" fill="#FFF" opacity="0.8"/>
+
+    <!-- Node 3 (Mainline Head) -->
+    <circle cx="80" cy="48" r="8" fill="url(#gitNodeBall)"/>
+    <circle cx="78" cy="46" r="2.5" fill="#FFF" opacity="0.8"/>
+
+    <!-- Gloss Arc -->
+    <path d="M 60 14 C 75 25, 95 45, 106 60" stroke="#FFF" stroke-width="3" stroke-linecap="round" opacity="0.4" fill="none"/>
+  </g>
+</svg>

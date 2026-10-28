@@ -24,9 +24,17 @@ No build step, no server, no dependencies. Works offline.
 
 ```
 Portfolio/
-├── index.html    ← All page structure, sections, and content
-├── style.css     ← All styles, animations, 3D sculpture, responsive
-└── README.md     ← This file
+├── index.html        ← All page structure, sections, toolkit, and content
+├── style.css         ← Midnight Purple theme, 3D sculpture, toolkit, animations
+├── README.md         ← This file
+└── assets/
+    └── skills/       ← 3D vector logo assets (HTML5, CSS3, Python, C++, Git, GitHub)
+        ├── html5.svg
+        ├── css3.svg
+        ├── python.svg
+        ├── cpp.svg
+        ├── git.svg
+        └── github.svg
 ```
 
 ---
@@ -57,15 +65,16 @@ All colors are defined at the top of **`style.css`** as CSS custom properties. E
 
 ```css
 :root {
-  --bg:            #080909;    /* Main background */
-  --bg-secondary:  #101312;    /* Cards, sections */
-  --text:          #F4F5F0;    /* Main text */
-  --muted:         #A0A49F;    /* Secondary text */
-  --accent-lime:   #C5FF4A;    /* Primary accent — lime */
-  --accent-blue:   #4AFFED;    /* Secondary accent — electric blue */
-  --accent-violet: #B57BFF;    /* Tertiary accent — violet */
-  --border:        #1E2422;    /* Default borders */
-  --border-light:  #2A302D;    /* Lighter borders */
+  --bg:            #0B0714;    /* Deep Midnight Purple */
+  --bg-secondary:  #171126;    /* Secondary cosmic surface */
+  --bg-card:       #171126;    /* Glassmorphic card surface */
+  --text:          #F5F3FF;    /* Soft White */
+  --muted:         #9D8FC7;    /* Cosmic Lavender */
+  --accent-lime:   #A78BFA;    /* Accent Purple */
+  --accent-blue:   #67E8F9;    /* Electric Cyan */
+  --accent-violet: #C084FC;    /* Electric Violet */
+  --border:        #2D1F5E;    /* Deep Purple border */
+  --border-light:  #3D2A7A;    /* Lighter Purple border */
 }
 ```
 
